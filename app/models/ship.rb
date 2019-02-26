@@ -1,3 +1,4 @@
+require 'pry' 
 class Ship
   attr_accessor :name, :type, :booty
   

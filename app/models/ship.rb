@@ -5,6 +5,7 @@ class Ship
   SHIPS = []
   
   def initialize(args)
+    binding.pry
     @name = args[name]
     @type = args[type]
     @booty = args[booty]
